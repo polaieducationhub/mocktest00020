@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Polai Education Hub | Odisha Police Constable Mock Test-20</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <!-- Custom Styles & Odia Google Font -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="min-h-screen flex flex-col bg-slate-50 text-slate-800 antialiased selection:bg-blue-600 selection:text-white">
+
+  <!-- ================= TOP MAIN HEADER ================= -->
+  <header class="brand-gradient text-white shadow-header sticky top-0 z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center shadow-inner">
+          <i class="fa-solid fa-graduation-cap text-amber-400 text-xl"></i>
+        </div>
+        <div>
+          <h1 class="font-extrabold text-lg sm:text-xl tracking-tight text-white leading-tight">POLAI EDUCATION HUB</h1>
+          <p class="text-xs text-blue-200 font-medium">Odisha Police Constable Mock Test-20 • English + Odia</p>
+        </div>
+      </div>
+
+      <div class="hidden sm:flex items-center gap-3">
+        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-white/15 border border-white/20 text-blue-100 flex items-center gap-1.5">
+          <i class="fa-solid fa-list-check text-amber-300"></i> 21 MCQ Questions
+        </span>
+        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-white/15 border border-white/20 text-blue-100 flex items-center gap-1.5">
+          <i class="fa-solid fa-clock text-emerald-300"></i> 25 Minutes
+        </span>
+        <span class="px-3 py-1 rounded-full text-xs font-semibold bg-white/15 border border-white/20 text-blue-100 flex items-center gap-1.5">
+          <i class="fa-solid fa-language text-purple-300"></i> Bilingual
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= START / INSTRUCTIONS SCREEN ================= -->
+  <main id="startScreen" class="flex-grow max-w-4xl w-full mx-auto px-4 py-8 sm:py-12 animate-fade-in">
+    <div class="bg-white rounded-3xl border border-slate-200 shadow-soft overflow-hidden">
+      <!-- Banner -->
+      <div class="brand-gradient p-6 sm:p-10 text-white text-center relative overflow-hidden">
+        <div class="absolute -right-10 -top-10 w-40 h-40 bg-white/5 rounded-full blur-2xl pointer-events-none"></div>
+        <div class="absolute -left-10 -bottom-10 w-40 h-40 bg-amber-400/10 rounded-full blur-2xl pointer-events-none"></div>
+        
+        <span class="inline-block px-4 py-1.5 rounded-full text-xs font-extrabold bg-amber-400 text-slate-950 mb-3 uppercase tracking-wider shadow-sm">
+          POLAI EDUCATION HUB
+        </span>
+        <h2 class="text-2xl sm:text-4xl font-extrabold tracking-tight">ODISHA POLICE CONSTABLE</h2>
+        <h3 class="text-xl sm:text-2xl font-bold text-amber-300 mt-1">MOCK TEST-20</h3>
+        <p class="text-xs sm:text-sm text-blue-200 mt-2 font-medium">21 Important MCQ Questions | English + Odia</p>
+      </div>
+
+      <!-- Exam Details & Rules -->
+      <div class="p-6 sm:p-8 space-y-6">
+        <div>
+          <h3 class="text-lg font-bold text-slate-900 flex items-center gap-2 mb-4">
+            <i class="fa-solid fa-circle-info text-blue-600"></i> Test Overview & Information Cards
+          </h3>
+          <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
+            <div class="p-4 rounded-2xl bg-blue-50/70 border border-blue-100 text-center">
+              <span class="block text-xs font-bold text-blue-600 uppercase">Questions</span>
+              <span class="text-xl sm:text-2xl font-extrabold text-slate-900 mt-1 block">21</span>
+            </div>
+            <div class="p-4 rounded-2xl bg-emerald-50/70 border border-emerald-100 text-center">
+              <span class="block text-xs font-bold text-emerald-600 uppercase">Time</span>
+              <span class="text-xl sm:text-2xl font-extrabold text-slate-900 mt-1 block">25 Mins</span>
+            </div>
+            <div class="p-4 rounded-2xl bg-purple-50/70 border border-purple-100 text-center">
+              <span class="block text-xs font-bold text-purple-600 uppercase">Total Marks</span>
+              <span class="text-xl sm:text-2xl font-extrabold text-slate-900 mt-1 block">21</span>
+            </div>
+            <div class="p-4 rounded-2xl bg-emerald-50/70 border border-emerald-100 text-center">
+              <span class="block text-xs font-bold text-emerald-600 uppercase">Correct</span>
+              <span class="text-xl sm:text-2xl font-extrabold text-emerald-700 mt-1 block">+1</span>
+            </div>
+            <div class="p-4 rounded-2xl bg-rose-50/70 border border-rose-100 text-center">
+              <span class="block text-xs font-bold text-rose-600 uppercase">Wrong</span>
+              <span class="text-xl sm:text-2xl font-extrabold text-rose-700 mt-1 block">-1/3</span>
+            </div>
+            <div class="p-4 rounded-2xl bg-amber-50/70 border border-amber-100 text-center">
+              <span class="block text-xs font-bold text-amber-600 uppercase">Unattempted</span>
+              <span class="text-xl sm:text-2xl font-extrabold text-slate-700 mt-1 block">0</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="border-t border-slate-100 pt-6">
+          <h4 class="font-bold text-slate-900 text-sm mb-3 flex items-center gap-2">
+            <i class="fa-solid fa-list-check text-blue-600"></i> General Instructions:
+          </h4>
+          <ul class="space-y-2.5 text-xs sm:text-sm text-slate-600">
+            <li class="flex items-start gap-2.5">
+              <i class="fa-solid fa-check text-emerald-600 mt-0.5"></i>
+              <span>Select one option for each question.</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i class="fa-solid fa-plus text-emerald-600 mt-0.5"></i>
+              <span><strong>Correct Answer:</strong> Gives <strong>+1 mark</strong>.</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i class="fa-solid fa-minus text-rose-500 mt-0.5"></i>
+              <span><strong>Wrong Answer:</strong> Deducts <strong>1/3 mark (-0.33)</strong>.</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i class="fa-solid fa-circle-notch text-slate-400 mt-0.5"></i>
+              <span><strong>Unattempted:</strong> Unattempted questions have no negative marking (0 mark).</span>
+            </li>
+            <li class="flex items-start gap-2.5">
+              <i class="fa-solid fa-clock text-blue-600 mt-0.5"></i>
+              <span><strong>Timer:</strong> The test automatically submits when the timer reaches zero (00:00).</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Start CTA -->
+        <div class="pt-4 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-slate-100">
+          <div class="text-xs text-slate-500 flex items-center gap-2">
+            <i class="fa-solid fa-shield-halved text-blue-600"></i> Exam Standard: Testbook Style Mock Test
+          </div>
+          <button id="btnStartTest" onclick="startTest()" type="button" class="w-full sm:w-auto px-10 py-4 rounded-2xl bg-blue-600 hover:bg-blue-700 active:bg-blue-800 text-white font-extrabold text-lg shadow-lg shadow-blue-600/25 hover:shadow-xl hover:shadow-blue-600/35 transition-all flex items-center justify-center gap-3 cursor-pointer">
+            <span>START TEST</span>
+            <i class="fa-solid fa-play text-sm"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ================= EXAM TEST INTERFACE ================= -->
+  <main id="examScreen" class="flex-grow max-w-7xl w-full mx-auto px-2 sm:px-6 lg:px-8 py-4 sm:py-6 hidden">
+    <!-- Top Exam Dashboard Bar -->
+    <div class="bg-white rounded-2xl border border-slate-200 p-3 sm:p-4 mb-4 shadow-xs flex flex-col sm:flex-row items-center justify-between gap-3">
+      <!-- Logo/Title & Progress -->
+      <div class="w-full sm:w-auto flex-grow max-w-xl">
+        <div class="flex items-center justify-between text-xs sm:text-sm font-semibold text-slate-700 mb-1.5">
+          <span class="flex items-center gap-2 font-bold text-slate-900">
+            <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+            Polai Education Hub — Mock Test-20
+          </span>
+          <span id="progressText" class="text-blue-700 font-extrabold">Attempted: 0 / 21</span>
+        </div>
+        <div class="w-full h-2.5 bg-slate-100 rounded-full overflow-hidden border border-slate-200">
+          <div id="progressFill" class="h-full bg-gradient-to-r from-blue-600 to-indigo-600 transition-all duration-300 rounded-full" style="width: 0%;"></div>
+        </div>
+      </div>
+
+      <!-- Timer & Controls -->
+      <div class="flex items-center gap-3 w-full sm:w-auto justify-between sm:justify-end border-t sm:border-t-0 pt-2 sm:pt-0 border-slate-100">
+        <div id="timerContainer" class="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-100 border border-slate-200 shadow-inner">
+          <i class="fa-regular fa-clock text-blue-600"></i>
+          <span class="text-xs font-bold uppercase text-slate-500">Time Left:</span>
+          <span id="timerDisplay" class="font-mono font-extrabold text-lg text-slate-900 tracking-wider">25:00</span>
+        </div>
+
+        <button onclick="openSubmitConfirmation()" type="button" class="px-5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 text-white font-extrabold text-sm shadow-md hover:shadow-lg transition-all flex items-center gap-2 cursor-pointer">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>SUBMIT TEST</span>
+        </button>
+
+        <button onclick="toggleMobilePalette()" type="button" class="lg:hidden px-3.5 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-sm border border-slate-300 flex items-center gap-1.5 cursor-pointer">
+          <i class="fa-solid fa-grip text-blue-600"></i>
+          <span>Palette</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Main Exam Body Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">
+      <!-- Left: Question Area -->
+      <div class="lg:col-span-8 bg-white rounded-3xl border border-slate-200 shadow-soft p-5 sm:p-8 flex flex-col min-h-[540px]">
+        <!-- Question Header -->
+        <div class="flex items-center justify-between border-b border-slate-100 pb-4 mb-5 flex-wrap gap-2">
+          <div class="flex items-center gap-3">
+            <span id="qNumberHeader" class="px-3.5 py-1.5 rounded-xl bg-blue-100 text-blue-800 font-extrabold text-sm border border-blue-200">
+              Question 1 of 21
+            </span>
+            <span class="text-xs text-slate-500 font-semibold uppercase tracking-wider">Single Choice MCQ</span>
+          </div>
+
+          <div class="text-xs font-semibold text-slate-500 flex items-center gap-3">
+            <span class="text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md border border-emerald-200 font-bold">+1 Mark</span>
+            <span class="text-rose-700 bg-rose-50 px-2.5 py-1 rounded-md border border-rose-200 font-bold">-1/3 Mark</span>
+          </div>
+        </div>
+
+        <!-- Question Text Area -->
+        <div class="space-y-4 mb-6 flex-grow">
+          <!-- English Question -->
+          <div id="qEnglishText" class="text-slate-900 font-bold text-lg sm:text-xl leading-relaxed whitespace-pre-line">
+            <!-- Dynamic English Question -->
+          </div>
+          
+          <!-- Odia Question -->
+          <div id="qOdiaText" class="text-blue-950 font-medium text-lg sm:text-xl leading-relaxed whitespace-pre-line font-odia p-3.5 rounded-2xl bg-blue-50/40 border border-blue-100/70">
+            <!-- Dynamic Odia Question -->
+          </div>
+        </div>
+
+        <!-- Options Container -->
+        <div id="optionsContainer" class="grid grid-cols-1 gap-3.5 mb-8">
+          <!-- Dynamic Options A, B, C, D -->
+        </div>
+
+        <!-- Question Action Navigation Bar -->
+        <div class="pt-5 border-t border-slate-100 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <div class="flex items-center gap-2 w-full sm:w-auto flex-wrap justify-between sm:justify-start">
+            <button id="btnMarkReviewNext" onclick="markForReviewAndNext()" type="button" class="px-3.5 py-2.5 rounded-xl border border-purple-300 bg-purple-50 text-purple-700 hover:bg-purple-100 font-bold text-xs sm:text-sm transition-all flex items-center gap-1.5 cursor-pointer">
+              <i class="fa-solid fa-bookmark"></i> Mark for Review & Next
+            </button>
+            <button onclick="clearAnswer()" type="button" class="px-3.5 py-2.5 rounded-xl border border-slate-300 bg-slate-50 text-slate-700 hover:bg-slate-100 font-semibold text-xs sm:text-sm transition-all flex items-center gap-1.5 cursor-pointer">
+              <i class="fa-solid fa-rotate-left"></i> Clear Response
+            </button>
+          </div>
+
+          <div class="flex items-center gap-2 w-full sm:w-auto justify-end">
+            <button id="btnPrev" onclick="navigatePrev()" type="button" class="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl border border-slate-300 bg-white hover:bg-slate-50 font-bold text-sm text-slate-700 disabled:opacity-40 disabled:cursor-not-allowed transition-all flex items-center justify-center gap-1.5 cursor-pointer">
+              <i class="fa-solid fa-chevron-left text-xs"></i> Previous
+            </button>
+            <button id="btnSaveNext" onclick="saveAndNext()" type="button" class="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-1.5 cursor-pointer">
+              <i class="fa-solid fa-floppy-disk text-xs"></i> Save & Next
+            </button>
+            <button id="btnNext" onclick="navigateNext()" type="button" class="flex-1 sm:flex-initial px-4 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-bold text-sm shadow-md hover:shadow-lg disabled:opacity-40 disabled:cursor-not-allowed transition-all flex items-center justify-center gap-1.5 cursor-pointer">
+              <span>Next</span>
+              <i class="fa-solid fa-chevron-right text-xs"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Desktop Question Navigator / Sidebar -->
+      <div class="hidden lg:block lg:col-span-4 bg-white rounded-3xl border border-slate-200 shadow-soft p-5 sticky top-20">
+        <h3 class="font-extrabold text-slate-900 text-base mb-3 flex items-center justify-between">
+          <span>Question Navigator</span>
+          <span class="text-xs font-semibold text-slate-500">21 Questions</span>
+        </h3>
+
+        <!-- Status Legend (Testbook Style) -->
+        <div class="grid grid-cols-2 gap-2 text-xs font-semibold mb-4 bg-slate-50 p-3 rounded-2xl border border-slate-200/80 space-y-1 sm:space-y-0">
+          <div class="flex items-center gap-2">
+            <span class="w-3.5 h-3.5 rounded-md status-not-visited flex-shrink-0"></span>
+            <span class="text-slate-700">Not Visited (<span id="cntNotVisited">21</span>)</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-3.5 h-3.5 rounded-md status-visited flex-shrink-0"></span>
+            <span class="text-slate-700">Visited (<span id="cntNotAnswered">0</span>)</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-3.5 h-3.5 rounded-md status-answered flex-shrink-0"></span>
+            <span class="text-slate-700">Answered (<span id="cntAnswered">0</span>)</span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="w-3.5 h-3.5 rounded-md status-marked flex-shrink-0"></span>
+            <span class="text-slate-700">Marked (<span id="cntMarked">0</span>)</span>
+          </div>
+          <div class="col-span-2 flex items-center gap-2 pt-1">
+            <span class="w-3.5 h-3.5 rounded-md status-answered-marked flex-shrink-0"></span>
+            <span class="text-slate-700">Answered & Marked (<span id="cntAnsweredMarked">0</span>)</span>
+          </div>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="flex items-center gap-1 p-1 bg-slate-100 rounded-xl mb-4 text-xs font-semibold">
+          <button onclick="filterPalette('all')" data-filter="all" type="button" class="palette-filter-btn flex-1 py-1.5 rounded-lg bg-blue-600 text-white text-center transition-all shadow-xs cursor-pointer">All</button>
+          <button onclick="filterPalette('answered')" data-filter="answered" type="button" class="palette-filter-btn flex-1 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 text-center transition-all cursor-pointer">Answered</button>
+          <button onclick="filterPalette('unanswered')" data-filter="unanswered" type="button" class="palette-filter-btn flex-1 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 text-center transition-all cursor-pointer">Skipped</button>
+          <button onclick="filterPalette('marked')" data-filter="marked" type="button" class="palette-filter-btn flex-1 py-1.5 rounded-lg text-slate-600 hover:text-slate-900 text-center transition-all cursor-pointer">Marked</button>
+        </div>
+
+        <!-- Palette Number Grid (Question 1 to Question 21) -->
+        <div id="paletteGrid" class="grid grid-cols-5 gap-2.5 max-h-[340px] overflow-y-auto pr-1">
+          <!-- Dynamic Question Buttons -->
+        </div>
+
+        <!-- Submit Button in Sidebar -->
+        <div class="mt-5 pt-4 border-t border-slate-100">
+          <button onclick="openSubmitConfirmation()" type="button" class="w-full py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 active:bg-emerald-800 text-white font-extrabold text-sm shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer">
+            <i class="fa-solid fa-circle-check"></i>
+            <span>SUBMIT TEST</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Mobile Question Navigator Drawer -->
+  <div id="mobilePaletteDrawer" class="fixed inset-0 z-50 hidden lg:hidden">
+    <div id="drawerBackdrop" class="absolute inset-0 bg-slate-900/60 backdrop-blur-xs"></div>
+    <div class="absolute right-0 top-0 bottom-0 w-80 max-w-[85vw] bg-white p-5 shadow-2xl flex flex-col overflow-y-auto">
+      <div class="flex items-center justify-between border-b border-slate-100 pb-3 mb-4">
+        <div>
+          <h3 class="font-extrabold text-slate-900 text-lg">Question Navigator</h3>
+          <p class="text-xs text-slate-500">Tap number to view question</p>
+        </div>
+        <button onclick="toggleMobilePalette()" type="button" class="w-9 h-9 rounded-full bg-slate-100 text-slate-600 flex items-center justify-center hover:bg-slate-200">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <div class="grid grid-cols-2 gap-2 text-xs font-semibold mb-4 bg-slate-50 p-3 rounded-xl border border-slate-200">
+        <div class="flex items-center gap-1.5"><span class="w-3 h-3 rounded bg-emerald-600"></span> <span>Ans: <strong id="mAnswered">0</strong></span></div>
+        <div class="flex items-center gap-1.5"><span class="w-3 h-3 rounded bg-rose-500"></span> <span>Visited: <strong id="mNotAnswered">0</strong></span></div>
+        <div class="flex items-center gap-1.5"><span class="w-3 h-3 rounded bg-purple-600"></span> <span>Marked: <strong id="mMarked">0</strong></span></div>
+        <div class="flex items-center gap-1.5"><span class="w-3 h-3 rounded bg-slate-200 border border-slate-300"></span> <span>Not Visited: <strong id="mNotVisited">21</strong></span></div>
+      </div>
+
+      <div id="mobilePaletteGrid" class="grid grid-cols-5 gap-2.5 my-2">
+        <!-- Dynamic Mobile Question Buttons -->
+      </div>
+
+      <div class="mt-auto pt-4 border-t border-slate-100 space-y-2">
+        <button onclick="toggleMobilePalette(); openSubmitConfirmation();" type="button" class="w-full py-3 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer">
+          <i class="fa-solid fa-circle-check"></i>
+          <span>SUBMIT TEST</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= SUBMIT CONFIRMATION MODAL ================= -->
+  <div id="submitModal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/60 backdrop-blur-xs hidden">
+    <div class="bg-white rounded-3xl max-w-md w-full p-6 sm:p-8 shadow-2xl border border-slate-200 animate-fade-in space-y-5">
+      <div class="w-14 h-14 rounded-2xl bg-blue-100 text-blue-600 flex items-center justify-center text-2xl font-bold mx-auto shadow-inner">
+        <i class="fa-solid fa-file-circle-check"></i>
+      </div>
+
+      <div class="text-center space-y-1">
+        <h3 class="text-xl sm:text-2xl font-extrabold text-slate-900">Submit Test Confirmation</h3>
+        <p class="text-sm text-slate-600 font-semibold mt-1">Are you sure you want to submit the test?</p>
+      </div>
+
+      <!-- Test Summary in Modal -->
+      <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200 grid grid-cols-2 sm:grid-cols-4 gap-2 text-center">
+        <div class="p-2 rounded-xl bg-white border border-slate-100 shadow-xs">
+          <span class="block text-[11px] font-extrabold text-emerald-600 uppercase">Answered</span>
+          <span id="modalAnswered" class="text-xl font-extrabold text-emerald-700 mt-0.5 block">0</span>
+        </div>
+        <div class="p-2 rounded-xl bg-white border border-slate-100 shadow-xs">
+          <span class="block text-[11px] font-extrabold text-rose-500 uppercase">Unanswered</span>
+          <span id="modalUnanswered" class="text-xl font-extrabold text-rose-600 mt-0.5 block">0</span>
+        </div>
+        <div class="p-2 rounded-xl bg-white border border-slate-100 shadow-xs">
+          <span class="block text-[11px] font-extrabold text-purple-600 uppercase">Marked</span>
+          <span id="modalMarked" class="text-xl font-extrabold text-purple-700 mt-0.5 block">0</span>
+        </div>
+        <div class="p-2 rounded-xl bg-white border border-slate-100 shadow-xs">
+          <span class="block text-[11px] font-extrabold text-slate-500 uppercase">Remaining</span>
+          <span id="modalRemaining" class="text-xl font-extrabold text-slate-700 mt-0.5 block">21</span>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-3 pt-2">
+        <button onclick="closeSubmitConfirmation()" type="button" class="flex-1 py-3.5 rounded-2xl border border-slate-300 bg-white hover:bg-slate-50 font-bold text-sm text-slate-700 transition-all cursor-pointer">
+          Continue Test
+        </button>
+        <button onclick="submitTest()" type="button" class="flex-1 py-3.5 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-sm shadow-md hover:shadow-lg transition-all cursor-pointer">
+          Submit Test
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ================= RESULT DASHBOARD ================= -->
+  <main id="resultScreen" class="flex-grow max-w-5xl w-full mx-auto px-4 py-8 sm:py-12 hidden animate-fade-in space-y-8">
+    
+    <!-- Result Header Banner -->
+    <div class="bg-white rounded-3xl border border-slate-200 shadow-soft overflow-hidden">
+      <div class="brand-gradient p-8 sm:p-10 text-white text-center relative">
+        <div class="w-16 h-16 rounded-2xl bg-white/10 backdrop-blur-md border border-white/20 flex items-center justify-center mx-auto mb-3 text-3xl text-amber-300 shadow-inner">
+          <i class="fa-solid fa-bullseye"></i>
+        </div>
+        <h2 class="text-2xl sm:text-4xl font-extrabold">🎯 MOCK TEST RESULT</h2>
+        <p class="text-blue-100 text-lg font-bold mt-1">POLAI EDUCATION HUB</p>
+        <p class="text-xs sm:text-sm text-blue-200 mt-1">Odisha Police Constable Mock Test-20</p>
+      </div>
+
+      <div class="p-6 sm:p-10 text-center space-y-8">
+        
+        <!-- Score Visualization: Circular Progress Ring & Summary -->
+        <div class="flex flex-col md:flex-row items-center justify-center gap-8 bg-slate-50/80 p-6 sm:p-8 rounded-3xl border border-slate-200">
+          
+          <!-- Circular Ring -->
+          <div class="relative w-44 h-44 flex items-center justify-center flex-shrink-0">
+            <svg class="w-full h-full transform -rotate-90" viewBox="0 0 36 36">
+              <path class="circle-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+              <path id="scoreCircleProgress" class="circle stroke-blue-600" stroke-dasharray="0, 100" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+            </svg>
+            <div class="absolute flex flex-col items-center justify-center text-center">
+              <span class="text-xs font-extrabold text-slate-500 uppercase tracking-wider">Final Score</span>
+              <span id="resScoreVal" class="text-3xl font-extrabold text-slate-900 mt-0.5">0.00</span>
+              <span class="text-xs font-bold text-slate-500">out of 21</span>
+            </div>
+          </div>
+
+          <!-- Performance Message & Percentage -->
+          <div class="text-left space-y-3 max-w-md">
+            <div>
+              <span id="resPerformanceBadge" class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-extrabold bg-blue-100 text-blue-800 border border-blue-200 mb-2">
+                <!-- Performance Badge -->
+              </span>
+              <h3 id="resPerformanceTitle" class="text-xl sm:text-2xl font-extrabold text-slate-900">
+                <!-- Performance Title -->
+              </h3>
+              <p id="resPerformanceMsg" class="text-slate-600 text-sm sm:text-base leading-relaxed font-medium mt-1">
+                <!-- Dynamic Performance Feedback -->
+              </p>
+            </div>
+
+            <div class="pt-2 flex items-center gap-4 text-xs font-bold text-slate-600">
+              <span class="flex items-center gap-1.5">
+                <i class="fa-solid fa-calculator text-blue-600"></i> Score Formula: Correct × 1 − Wrong × (1/3)
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Detailed Result Metrics Grid -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-3 sm:gap-4">
+          <div class="p-4 rounded-2xl bg-blue-50/80 border border-blue-100 text-center">
+            <span class="block text-xs font-extrabold text-blue-700 uppercase">Score</span>
+            <span id="resScore" class="text-xl sm:text-2xl font-extrabold text-blue-900 mt-1 block">0.00 / 21</span>
+          </div>
+          <div class="p-4 rounded-2xl bg-emerald-50/80 border border-emerald-100 text-center">
+            <span class="block text-xs font-extrabold text-emerald-700 uppercase">Correct</span>
+            <span id="resCorrect" class="text-2xl font-extrabold text-emerald-800 mt-1 block">0</span>
+          </div>
+          <div class="p-4 rounded-2xl bg-rose-50/80 border border-rose-100 text-center">
+            <span class="block text-xs font-extrabold text-rose-700 uppercase">Wrong</span>
+            <span id="resWrong" class="text-2xl font-extrabold text-rose-800 mt-1 block">0</span>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-100 border border-slate-200 text-center">
+            <span class="block text-xs font-extrabold text-slate-600 uppercase">Unattempted</span>
+            <span id="resUnattempted" class="text-2xl font-extrabold text-slate-800 mt-1 block">21</span>
+          </div>
+          <div class="p-4 rounded-2xl bg-indigo-50/80 border border-indigo-100 text-center">
+            <span class="block text-xs font-extrabold text-indigo-700 uppercase">Total Qs</span>
+            <span class="text-2xl font-extrabold text-indigo-900 mt-1 block">21</span>
+          </div>
+          <div class="p-4 rounded-2xl bg-amber-50/80 border border-amber-100 text-center">
+            <span class="block text-xs font-extrabold text-amber-700 uppercase">Accuracy</span>
+            <span id="resAccuracy" class="text-2xl font-extrabold text-amber-900 mt-1 block">0%</span>
+          </div>
+          <div class="p-4 rounded-2xl bg-purple-50/80 border border-purple-100 text-center col-span-2 sm:col-span-1">
+            <span class="block text-xs font-extrabold text-purple-700 uppercase">Time Taken</span>
+            <span id="resTimeTaken" class="text-xl font-extrabold text-purple-900 mt-1 block">0m 0s</span>
+          </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="flex flex-col sm:flex-row items-center justify-center gap-3.5 pt-4 border-t border-slate-100">
+          <button onclick="startTest()" type="button" class="w-full sm:w-auto px-7 py-3.5 rounded-2xl bg-emerald-600 hover:bg-emerald-700 text-white font-extrabold text-base shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer">
+            <i class="fa-solid fa-rotate"></i>
+            <span>RESTART TEST</span>
+          </button>
+
+          <button onclick="showReviewScreen()" type="button" class="w-full sm:w-auto px-7 py-3.5 rounded-2xl bg-blue-600 hover:bg-blue-700 text-white font-extrabold text-base shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer">
+            <i class="fa-solid fa-eye"></i>
+            <span>VIEW ANSWERS</span>
+          </button>
+
+          <button onclick="shareResult()" type="button" class="w-full sm:w-auto px-7 py-3.5 rounded-2xl bg-purple-600 hover:bg-purple-700 text-white font-extrabold text-base shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 cursor-pointer">
+            <i class="fa-solid fa-share-nodes"></i>
+            <span>SHARE RESULT</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ================= QUESTION REVIEW SCREEN ================= -->
+  <main id="reviewScreen" class="flex-grow max-w-4xl w-full mx-auto px-4 py-8 sm:py-12 hidden animate-fade-in space-y-6">
+    <!-- Review Header -->
+    <div class="bg-white rounded-3xl border border-slate-200 p-6 shadow-soft flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>
+        <h2 class="text-xl sm:text-2xl font-extrabold text-slate-900">Detailed Question Review</h2>
+        <p class="text-xs sm:text-sm text-slate-500 font-semibold">Polai Education Hub — Odisha Police Constable Mock Test-20</p>
+      </div>
+
+      <div class="flex items-center gap-3 w-full sm:w-auto">
+        <button onclick="showResultScreen()" type="button" class="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl border border-slate-300 bg-white hover:bg-slate-50 font-bold text-sm text-slate-700 transition-all flex items-center justify-center gap-2 cursor-pointer">
+          <i class="fa-solid fa-chart-pie"></i> Score Summary
+        </button>
+        <button onclick="startTest()" type="button" class="flex-1 sm:flex-initial px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-sm shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer">
+          <i class="fa-solid fa-rotate"></i> Restart Test
+        </button>
+      </div>
+    </div>
+
+    <!-- Review Questions List Container -->
+    <div id="reviewListContainer" class="space-y-4">
+      <!-- Dynamic Expandable Question Cards -->
+    </div>
+  </main>
+
+  <!-- ================= FOOTER / LAST SECTION ================= -->
+  <footer class="bg-gradient-to-br from-slate-900 via-blue-950 to-slate-900 text-white border-t border-blue-900/50 mt-auto py-10 px-4">
+    <div class="max-w-4xl mx-auto text-center space-y-6">
+      
+      <div class="space-y-2">
+        <h3 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight">POLAI EDUCATION HUB</h3>
+        <p class="text-amber-300 font-extrabold text-base sm:text-lg tracking-wide">
+          “Prepare Smart • Practice Daily • Achieve Your Goal”
+        </p>
+      </div>
+
+      <!-- Large Social Buttons -->
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 pt-2">
+        <a href="https://youtube.com/@polaieducationhub?si=Fl7PoG6lAsund8WN" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-red-600 hover:bg-red-700 text-white font-extrabold text-base shadow-lg shadow-red-600/30 hover:scale-105 transition-all flex items-center justify-center gap-3">
+          <i class="fa-brands fa-youtube text-2xl"></i>
+          <span>WATCH ON YOUTUBE</span>
+        </a>
+
+        <a href="https://t.me/polaieducationhub" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 rounded-2xl bg-sky-500 hover:bg-sky-600 text-white font-extrabold text-base shadow-lg shadow-sky-500/30 hover:scale-105 transition-all flex items-center justify-center gap-3">
+          <i class="fa-brands fa-telegram text-2xl"></i>
+          <span>JOIN TELEGRAM</span>
+        </a>
+      </div>
+
+      <p class="text-xs sm:text-sm text-slate-300 font-medium pt-2">
+        Follow Polai Education Hub for more Mock Tests, Classes & Exam Preparation.
+      </p>
+
+      <div class="pt-6 border-t border-slate-800/80 text-xs text-slate-400">
+        <p>© 2026 Polai Education Hub. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div id="toastMessage" class="fixed bottom-6 right-6 z-50 bg-slate-900 text-white px-5 py-3 rounded-2xl shadow-2xl border border-slate-700 text-sm font-bold flex items-center gap-2.5 opacity-0 pointer-events-none transform translate-y-4">
+    <i class="fa-solid fa-circle-check text-emerald-400 text-lg"></i>
+    <span id="toastText">Result copied to clipboard!</span>
+  </div>
+
+  <!-- App Engine Script -->
+  <script src="app.js"></script>
+</body>
+</html>
